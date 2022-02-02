@@ -1,19 +1,3 @@
-//Create an object to hold information on your favorite recipe. It should have properties for title (a string), servings (a number), and ingredients (an array of strings
-
-let recipe = {
-    'title': 'Mole',
-    'servings': 2,
-    'ingredients': ['cumin', 'cinnamon', 'cocoa']
-};
-
-console.log(recipe.title);
-console.log('Servings: ' + recipe.servings);
-console.log('Ingredients:');
-for (let i = 0; i < recipe.ingredients.length; i++) {
-    console.log(recipe.ingredients[i]);
-}
-
-
 
 //Create an array of objects, where each object describes a book and has properties for the title (a string), author (a string), and alreadyRead (a boolean indicating if you read it yet).
 //Iterate through the array of books. For each book, log the book title and book author like so: "The Hobbit by J.R.R. Tolkien".
